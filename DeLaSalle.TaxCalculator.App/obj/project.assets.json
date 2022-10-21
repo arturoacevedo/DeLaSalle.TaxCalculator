@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "DeLaSalle.TaxCalculator.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/DeLaSalle.TaxCalculator.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DeLaSalle.TaxCalculator.Core.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "DeLaSalle.TaxCalculator.Core/1.0.0": {
+      "type": "project",
+      "path": "../DeLaSalle.TaxCalculator.Core/DeLaSalle.TaxCalculator.Core.csproj",
+      "msbuildProject": "../DeLaSalle.TaxCalculator.Core/DeLaSalle.TaxCalculator.Core.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "DeLaSalle.TaxCalculator.Core >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\aacevedo\\.nuget\\packages\\": {},
@@ -38,7 +57,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\DeLaSalleBajio\\Tecnologias_Net\\Practicas\\DeLaSalle.TaxCalculator\\DeLaSalle.TaxCalculator.Core\\DeLaSalle.TaxCalculator.Core.csproj": {
+              "projectPath": "D:\\DeLaSalleBajio\\Tecnologias_Net\\Practicas\\DeLaSalle.TaxCalculator\\DeLaSalle.TaxCalculator.Core\\DeLaSalle.TaxCalculator.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

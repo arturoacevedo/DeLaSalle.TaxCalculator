@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "DeLaSalle.TaxCalculator.App/1.0.0": {
+        "dependencies": {
+          "DeLaSalle.TaxCalculator.Core": "1.0.0"
+        },
+        "runtime": {
+          "DeLaSalle.TaxCalculator.App.dll": {}
+        }
+      },
+      "DeLaSalle.TaxCalculator.Core/1.0.0": {
+        "runtime": {
+          "DeLaSalle.TaxCalculator.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DeLaSalle.TaxCalculator.App/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DeLaSalle.TaxCalculator.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
