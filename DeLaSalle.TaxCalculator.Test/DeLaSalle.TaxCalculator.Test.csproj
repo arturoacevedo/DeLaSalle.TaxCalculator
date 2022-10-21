@@ -21,4 +21,9 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DeLaSalle.TaxCalculator.Core\DeLaSalle.TaxCalculator.Core.csproj" />
+    <ProjectReference Include="..\DeLaSalle.TaxCalculator.App\DeLaSalle.TaxCalculator.App.csproj" />
+  </ItemGroup>
+
 </Project>
